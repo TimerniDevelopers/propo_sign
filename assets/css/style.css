@@ -1247,6 +1247,7 @@ color: var(--bg-theme-color1);
 .banner-btn{
   display: flex;
   gap: 10px;
+  justify-content: center;
 
 }
 .banner-title p{
@@ -1907,6 +1908,7 @@ content .date i {
         }
         .services__details-thumb {
           margin-bottom: 35px;
+          position: relative;
         }
         
         .services__details-thumb img {
