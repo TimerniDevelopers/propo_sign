@@ -119,6 +119,9 @@
       .blog-one__more-btn {
         margin-top: 30px;
       }
+      .banner-btn .theme-btn {
+        padding: 20px 30px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -269,4 +272,7 @@
       .blog-one__meta a + a:before {
         display: none;
       }
+      .banner-btn {
+       flex-direction: column;
+    }
 }
